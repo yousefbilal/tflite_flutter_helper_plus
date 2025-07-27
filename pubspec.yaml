@@ -16,7 +16,10 @@ dependencies:
   ffi: ^2.0.1
   quiver: ^3.2.1
   path_provider: ^2.0.14
-  tflite_flutter_plus: ^0.0.1
+  tflite_flutter_plus:
+    git:
+      url: https://github.com/dev-afreen/tflite_flutter_plus.git
+      ref: master
   tuple: ^2.0.1
   camera: ^0.10.4
   image: ^3.3.0
