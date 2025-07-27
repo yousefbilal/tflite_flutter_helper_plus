@@ -26,6 +26,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace "com.github.dev_afreen.tflite_flutter_helper_plus"
     compileSdkVersion 31
 
     compileOptions {
